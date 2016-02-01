@@ -1,0 +1,4 @@
+Issue 1: The application doesn't run in as a stand alone. It gives access control exception, java.io.FilePermission error. Looks to be a applet error.
+Issue 2: The invalid input co-ordinates enter into the "Enter co-ordinates" text box doesn't give the error message but simply ignores it. It should give the proper error message
+Issue 3: When clicked on "Start Experiment with Default Values"  it displays the "Enter" button behind "Next iteration" button. The "Enter" button should not be displayed.
+Issue 4. The page doesn't refresh when experiment starts with the Default Values

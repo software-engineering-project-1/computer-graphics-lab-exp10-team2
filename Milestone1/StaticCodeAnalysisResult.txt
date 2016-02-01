@@ -1,0 +1,143 @@
+3308 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	49 	This final field could be made static
+3312 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	50 	fieldCommentRequirement Required
+3313 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	52 	Found non-transient, non-static member. Please mark as transient or provide accessors.
+3316 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	54 	Avoid using implementation types like 'Vector'; use the interface instead
+3326 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	58 	Avoid unused private fields such as 'counter'.
+3327 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	58 	Found non-transient, non-static member. Please mark as transient or provide accessors.
+3345 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	67 	fieldCommentRequirement Required
+3346 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	69 	Found non-transient, non-static member. Please mark as transient or provide accessors.
+3347 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	69 	fieldCommentRequirement Required
+3348 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	71 	Avoid variables with short names like s
+3349 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	71 	Found non-transient, non-static member. Please mark as transient or provide accessors.
+3350 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	71 	To avoid mistakes add a comment at the beginning of the s field if you want a default access modifier
+3351 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	71 	Use explicit scoping instead of the default package private level
+3352 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	71 	fieldCommentRequirement Required
+3353 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	72 	Found non-transient, non-static member. Please mark as transient or provide accessors.
+3354 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	72 	fieldCommentRequirement Required
+3409 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	94 	fieldCommentRequirement Required
+3410 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	95 	Found non-transient, non-static member. Please mark as transient or provide accessors.
+3411 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	95 	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'TRANSLATE_Y' is not final.
+3412 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	95 	Private field 'TRANSLATE_Y' could be made final; it is only initialized in the declaration or constructor.
+3413 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	95 	The field name indicates a constant but its modifiers do not
+3414 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	95 	Variables should start with a lowercase character, 'TRANSLATE_Y' starts with uppercase character.
+3466 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	318 	To avoid mistakes add a comment at the beginning of the toNext method if you want a default access modifier
+3467 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	318 	Use explicit scoping instead of the default package private level
+3468 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	325 	Avoid using if...else statements without curly braces
+3469 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	340 	Avoid using if statements without curly braces
+3470 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	346 	Avoid variables with short names like g
+3471 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	346 	Parameter 'g' is not assigned and could be declared final
+3472 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	346 	The method 'paint' has a Cyclomatic Complexity of 11.
+3473 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	346 	The method 'paint' has a Modified Cyclomatic Complexity of 11.
+3510 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	453 	Avoid instantiating new objects inside loops
+3511 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	457 	Local variable 'ptr' could be declared final
+3512 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	457 	Potential violation of Law of Demeter (method chain calls)
+3513 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	459 	Found 'DU'-anomaly for variable 'begin' (lines '459'-'489').
+3514 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	460 	Use one line for each declaration, it enhances code readability.
+3515 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	461 	Found 'DD'-anomaly for variable 'start' (lines '461'-'468').
+3516 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	462 	Found 'DD'-anomaly for variable 'ptemp' (lines '462'-'469').
+3517 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	465 	Avoid unnecessary comparisons in boolean expressions
+3518 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	467 	Found 'DU'-anomaly for variable 'begin' (lines '467'-'489').
+3535 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	484 	Potential violation of Law of Demeter (object not created locally)
+3536 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	491 	Avoid variables with short names like g
+3537 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	491 	Parameter 'g' is not assigned and could be declared final
+3538 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	491 	To avoid mistakes add a comment at the beginning of the drawCheckState method if you want a default access modifier
+3539 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	491 	Use explicit scoping instead of the default package private level
+3540 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	496 	Avoid variables with short names like g
+3541 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	496 	Parameter 'g' is not assigned and could be declared final
+3542 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	496 	To avoid mistakes add a comment at the beginning of the drawFoundState method if you want a default access modifier
+3543 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	496 	Use explicit scoping instead of the default package private level
+3544 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	501 	Avoid variables with short names like g
+3545 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	501 	Parameter 'g' is not assigned and could be declared final
+3546 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	501 	To avoid mistakes add a comment at the beginning of the drawDrawOverState method if you want a default access modifier
+3547 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	501 	Use explicit scoping instead of the default package private level
+3548 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	503 	Avoid variables with short names like x
+3549 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	506 	Consider replacing this Vector with the newer java.util.List
+3550 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	506 	Local variable 'temp' could be declared final
+3551 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	507 	Avoid variables with short names like i
+3552 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	507 	Local variable 'i' could be declared final
+3553 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	507 	Potential violation of Law of Demeter (object not created locally)
+3554 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	511 	Local variable 'curr_edge' could be declared final
+3589 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	578 	Potential violation of Law of Demeter (object not created locally)
+3590 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	578 	Potential violation of Law of Demeter (object not created locally)
+3591 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	579 	Avoid instantiating new objects inside loops
+3592 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	584 	Potential violation of Law of Demeter (object not created locally)
+3593 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	584 	Potential violation of Law of Demeter (object not created locally)
+3594 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	585 	Avoid instantiating new objects inside loops
+3595 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	585 	Potential violation of Law of Demeter (object not created locally)
+3596 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	585 	Potential violation of Law of Demeter (object not created locally)
+3597 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	586 	Potential violation of Law of Demeter (object not created locally)
+3598 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	586 	Potential violation of Law of Demeter (object not created locally)
+3599 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	587 	Avoid instantiating new objects inside loops
+3600 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	588 	Found 'DD'-anomaly for variable 'ptemp' (lines '588'-'577').
+3601 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	591 	Potential violation of Law of Demeter (object not created locally)
+3602 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	591 	Potential violation of Law of Demeter (object not created locally)
+3631 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	632 	Use one line for each declaration, it enhances code readability.
+3632 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	636 	Avoid variables with short names like a
+3633 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	637 	Found 'DD'-anomaly for variable 'counter_length' (lines '637'-'650').
+3634 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	637 	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'counter_length' is not final.
+3635 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	637 	Use one line for each declaration, it enhances code readability.
+3636 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	638 	Found 'DD'-anomaly for variable 'a' (lines '638'-'647').
+3637 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	641 	Local variable 'curr_edge' could be declared final
+3638 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	641 	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'curr_edge' is not final.
+3639 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	642 	Local variable 'next_edge' could be declared final
+3640 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	642 	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'next_edge' is not final.
+3641 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	647 	Found 'DD'-anomaly for variable 'a' (lines '647'-'647').
+3642 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	650 	Found 'DU'-anomaly for variable 'counter_length' (lines '650'-'676').
+3643 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	655 	Potential violation of Law of Demeter (method chain calls)
+3644 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	657 	Found 'DU'-anomaly for variable 'count_point' (lines '657'-'676').
+3645 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	662 	Potential violation of Law of Demeter (method chain calls)
+3646 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	664 	Found 'DU'-anomaly for variable 'count_point' (lines '664'-'676').
+3647 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	679 	Avoid really long methods.
+3648 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	679 	Avoid variables with short names like e
+underscores in standard prefix/suffix), 'raster_height' is not final.
+3668 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	767 	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'raster_width' is not final.
+3669 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	767 	Use one line for each declaration, it enhances code readability.
+3670 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	772 	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'vertices_temp' is not final.
+3671 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	773 	Local variable 'ptr' could be declared final
+3688 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	818 	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'state_continue' is not final.
+3689 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	822 	Found 'DD'-anomaly for variable 'str1' (lines '822'-'831').
+3690 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	823 	Found 'DD'-anomaly for variable 'str2' (lines '823'-'837').
+3691 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	824 	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'coord_length' is not final.
+3692 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	824 	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'str1_count' is not final.
+3693 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	824 	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'str2_count' is not final.
+3694 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	824 	Use one line for each declaration, it enhances code readability.
+3695 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	825 	Found 'DD'-anomaly for variable 'coord' (lines '825'-'844').
+3696 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	826 	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'p_temp' is not final.
+3697 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	837 	Potential violation of Law of Demeter (method chain calls)
+3698 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	837 	Potential violation of Law of Demeter (method chain calls)
+3699 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	844 	Found 'DD'-anomaly for variable 'coord' (lines '844'-'844').
+3700 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	844 	Found 'DU'-anomaly for variable 'coord' (lines '844'-'979').
+3701 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	844 	Potential violation of Law of Demeter (method chain calls)
+3702 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	847 	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+3703 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	850 	Potential violation of Law of Demeter (method chain calls)
+3704 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	850 	Potential violation of Law of Demeter (method chain calls)
+3705 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	858 	Avoid unnecessary comparisons in boolean expressions
+3706 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	860 	Useless parentheses.
+3707 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	860 	Useless parentheses.
+3708 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	867 	Avoid instantiating new objects inside loops
+3713 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	898 	Comment is too large: Line too long
+3714 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	920 	Avoid instantiating String objects; this is usually unnecessary.
+3715 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	920 	Found 'DD'-anomaly for variable 'str' (lines '920'-'929').
+3716 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	921 	Found 'DD'-anomaly for variable 'str1' (lines '921'-'934').
+3717 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	923 	Avoid variables with short names like x
+3718 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	923 	Avoid variables with short names like y
+3719 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	923 	Use one line for each declaration, it enhances code readability.
+3720 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	927 	Local variable 'url' could be declared final
+3721 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	928 	Avoid variables with short names like br
+3722 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	928 	Local variable 'br' could be declared final
+3723 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	929 	Avoid assignments in operands
+3724 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	932 	System.exit() should not be used in J2EE/JEE apps
+3725 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	934 	Found 'DD'-anomaly for variable 'str1' (lines '934'-'939').
+3734 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	946 	System.exit() should not be used in J2EE/JEE apps
+3735 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	948 	Avoid instantiating new objects inside loops
+3736 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	955 	System.exit() should not be used in J2EE/JEE apps
+3737 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	960 	System.exit() should not be used in J2EE/JEE apps
+3738 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	962 	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'vertices_temp' is not final.
+3739 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	963 	Local variable 'ptr' could be declared final
+3740 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	963 	Potential violation of Law of Demeter (method chain calls)
+3741 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	965 	Found 'DD'-anomaly for variable 'ptemp' (lines '965'-'968').
+3742 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	965 	Found 'DU'-anomaly for variable 'ptemp' (lines '965'-'979').
+3743 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	968 	Avoid instantiating new objects inside loops
+3744 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	969 	Prefer StringBuffer over += for concatenating strings
+3745 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	976 	Avoid using if...else statements without curly braces
+3746 	/opt/usr/samples/computer-graphics-lab-latest-iiith/Vlabs/src/rasterization/ScanPolygonMain.java 	977 	Avoid using if statements without curly braces
