@@ -1,0 +1,54 @@
+Release Notes for Computer Graphics Lab
+  1.Commit id of the Source : 
+  2.Version Number of the Lab : 
+  3.Details of new features added  :
+    - Feature no. : 1
+    - Description : Usability
+		    User is now able to view the experiment from any browser/operating system.
+    - Test Case links : 
+        Test Case Steps
+	1. Go to the default page. 
+	2. Click on Experiment.
+
+	Outcome
+	1. Experiment page is opened.
+	2. The visualization is rendered correctly.
+	
+
+    - Feature no. : 2
+    - Description : Responsive Design
+	      	    With change in screen size and device, the view remains uniform and responsive.
+
+    - Test Case links : 
+	Test Case Steps
+	1. Adjust the screen size from 100% to 25%.
+	2. Try the same on a laptop with a different screen size, and a smartphone.
+
+	Outcome 
+	1. The page should be adjusted according to the screen/display size.
+	2. To enhance user experience, relevant content should be displayed above the relatively irrelevant one.
+
+    - Feature no. : 3
+    - Description : Error Handling
+		    The experiment now throws an error on entering invalid polygon co-ordinates
+
+    - Test Case links : 
+	Test Case Steps
+	1. Go to Computer Science & Engineering ->Computer Graphics ->List Of Experiments
+	2. Click on “Rasterization : Polygon” experiment
+	3. Enter Frame Width and Enter Frame Height, click on “Enter”
+	4. Enter the invalid polygon co-ordinates
+	5. Click on "Start Experiment"
+	
+	Outcome
+	It should give the proper error message
+
+  4.Defect link of resolved defects  : Refer to test cases mentioned above
+  5.Tests conducted with results : -
+  6.Environment Settings : 
+	OS: Windows 10, Linux, MacOS
+	Browsers: Firefox, Chrome, Microsoft Edge, Safari
+	Bandwidth : 100Mbps
+	Hardware Configuration:8GBRAM 
+	Processor:i5
+
