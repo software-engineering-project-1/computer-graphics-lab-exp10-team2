@@ -34,7 +34,7 @@ linha.atualizar = function ()
 	/* Pontos foram alterados, assumindo que o polígono está aberto. */
 	linha.fechado = false
 	document.getElementById("top-text").style.color = "black"
-	document.getElementById("btn-preencher").disabled = true
+	//document.getElementById("btn-preencher").disabled = true
 	linha.outros.cache_pontos = []
     }
     if (raster.selecionados.length >= 3) {
@@ -69,7 +69,7 @@ linha.fechar_poligono = function ()
 
     document.getElementById("top-text").style.color = "white"
     document.getElementById("btn-poligono").disabled = true
-    document.getElementById("btn-preencher").disabled = false
+    //document.getElementById("btn-preencher").disabled = false
 
     linha.outros.cache_pontos = raster.selecionados.slice(0) /* Cópia. */
     linha.fechado = true

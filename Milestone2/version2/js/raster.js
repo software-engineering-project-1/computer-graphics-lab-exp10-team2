@@ -200,7 +200,7 @@ raster.outros.deselecionar = function ()
 raster.outros.atualizar_resolucao = function ()
 {
     var p_size = parseInt(document.getElementById("r_psize").value)
-    var spixel = document.getElementById("r_spixel").checked
+   // var spixel = document.getElementById("r_spixel").checked
     var rows = parseInt(document.getElementById("r_rows").value)
     var cols = parseInt(document.getElementById("r_cols").value)
     var width = document.getElementById("r_width").value
@@ -214,7 +214,7 @@ raster.outros.atualizar_resolucao = function ()
 	raster.init_desenho()
     }
 
-    raster.conf.desenhar_pixels = spixel
+    raster.conf.desenhar_pixels = false
     raster.conf.tamanho_pixel = p_size
 
     /* Atualiza número de linhas e colunas. */
@@ -316,7 +316,7 @@ raster.init = function ()
     document.getElementById("r_cols").value = raster.conf.colunas
     document.getElementById("r_rows").value = raster.conf.linhas
     document.getElementById("r_psize").value = raster.conf.tamanho_pixel
-    document.getElementById("r_spixel").checked = raster.conf.desenhar_pixels
+    //document.getElementById("r_spixel").checked = raster.conf.desenhar_pixels
 
     if (window['loadFirebugConsole']) {
 	window.loadFirebugConsole()

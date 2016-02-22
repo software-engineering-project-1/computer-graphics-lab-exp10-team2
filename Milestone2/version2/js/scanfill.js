@@ -43,6 +43,41 @@ scanfill.limpar = function ()
     }
 }
 
+scanfill.startExperiment = function()
+{
+	var ctx = scanfill.canvas.getContext("2d")
+    var temp = linha.ctx
+
+    temp = linha.ctx
+    linha.ctx = ctx
+
+    scanfill.limpar()
+    scanfill.construir_tabela_retas()
+    scanfill.y = scanfill.min_y    /* Scanline atual para preenchimento. */
+
+    scanfill.temp_ctx = temp
+   // if (!(document.getElementById("anim-preenchimento").checked)) {
+	/* Faz apenas uma pequena animação automática. */
+	//scanfill.interval = setInterval(scanfill.ajustar_e_preencher_linha, 30)
+    //} else {
+	//scanfill.outros.preparar_anim()
+    //}
+
+}
+
+/**
+*calculates the next iteration
+*/
+scanfill.nextIteration = function()
+{
+	scanfill.ajustar_e_preencher_linha()
+}
+
+scanfill.prevIteration = function()
+{
+	scanfill.ajustar_e_preencher_linha1()
+}
+
 scanfill.preencher = function ()
 {
     var ctx = scanfill.canvas.getContext("2d")
@@ -56,14 +91,57 @@ scanfill.preencher = function ()
     scanfill.y = scanfill.min_y    /* Scanline atual para preenchimento. */
 
     scanfill.temp_ctx = temp
-    if (!(document.getElementById("anim-preenchimento").checked)) {
+    //if (!(document.getElementById("anim-preenchimento").checked)) {
 	/* Faz apenas uma pequena animação automática. */
 	scanfill.interval = setInterval(scanfill.ajustar_e_preencher_linha, 30)
-    } else {
-	scanfill.outros.preparar_anim()
-    }
+   // } else {
+	//scanfill.outros.preparar_anim()
+    //}
 }
 
+scanfill.ajustar_e_preencher_linha1 = function ()
+{
+    var y = scanfill.y
+
+    scanfill.construir_tabela_ativa(y)
+    if (scanfill.outros.ativas) {
+	scanfill.outros.preencher_scanline()
+	//alert("3");
+	scanfill.atualizar_tabela_ativa1(y)
+    }
+
+    scanfill.y--
+    //if (scanfill.y >= scanfill.max_y) {
+	/* Terminou o preenchimento. scanfill.y agora deveria ser igual a
+	 * scanfill.max_y, porém, se ocorrer algum bug durante o desenho
+	 * talvez pode acontecer do valor de y ultrapassar o limite.
+	 */
+	clearInterval(scanfill.interval)
+	linha.ctx = scanfill.temp_ctx
+	scanfill.preenchido = true
+   // }
+}
+
+
+scanfill.atualizar_tabela_ativa1 = function(y)
+{
+    var ativas = scanfill.outros.ativas
+    var nova_lista = []
+
+    /* Ajustar o valor de x_min, nas retas ativas que ainda terão scanlines
+     * passadas por elas, para determinar o novo ponto de intersecção.
+     */
+    for (var i = 0; i < ativas.length; i++) {
+		//alert("hi");
+	if (y < ativas[i].y_max) {
+	    ativas[i].x_min += ativas[i].m_inv
+	    nova_lista.push(ativas[i])
+	}
+    }
+
+    nova_lista.sort(scanfill.outros.reta_cmp)
+    scanfill.outros.ativas = nova_lista
+}
 
 scanfill.ajustar_e_preencher_linha = function ()
 {
@@ -72,6 +150,7 @@ scanfill.ajustar_e_preencher_linha = function ()
     scanfill.construir_tabela_ativa(y)
     if (scanfill.outros.ativas) {
 	scanfill.outros.preencher_scanline()
+	//alert("3");
 	scanfill.atualizar_tabela_ativa(y)
     }
 
@@ -113,6 +192,7 @@ scanfill.construir_tabela_retas = function ()
 	if (!scanfill.outros.retas[y]) {
 	    continue
 	}
+	
 	scanfill.outros.retas[y].sort(scanfill.outros.reta_cmp)
     }
 }
@@ -137,6 +217,7 @@ scanfill.construir_tabela_ativa = function (y)
 
     /* Insere retas que tem seu y mínimo como o valor do parâmetro y. */
     for (var i = 0; i < retas.length; i++) {
+	
 	scanfill.outros.ativas.push(retas[i])
     }
     /* Remove retas utilizadas agora da tabela de retas. */
@@ -154,6 +235,7 @@ scanfill.atualizar_tabela_ativa = function(y)
      * passadas por elas, para determinar o novo ponto de intersecção.
      */
     for (var i = 0; i < ativas.length; i++) {
+		//alert("hi");
 	if (y < ativas[i].y_max) {
 	    ativas[i].x_min += ativas[i].m_inv
 	    nova_lista.push(ativas[i])
@@ -203,6 +285,7 @@ scanfill.outros.preparar_anim = function ()
 
 scanfill.outros.avancar_anim = function (event)
 {
+	alert("avancar_anim");
     var event = window.event || event
     var key = event.keyCode
 
@@ -270,6 +353,7 @@ scanfill.outros.configurar_e_marcar_scanline = function ()
 	    }
 	}
 	if (ignorar == retas.length) {
+		alert("2");
 	    scanfill.atualizar_tabela_ativa(scanfill.y)
 	    scanfill.y++
 	} else {

@@ -49,7 +49,7 @@
     </script>
   </head>
   <body onload="raster.init(); linha.init('poligono'); scanfill.init()">
-
+	<h1>Rasterization : Polygon</h1>
   
 
     <p><text id="top-text">Select the points</text>
@@ -59,50 +59,65 @@
 	Close polygon</button>
 
       &nbsp;&nbsp; <font size="+2"></font>
+	  <!--
       <button onclick="scanfill.preencher()" disabled="true" id="btn-preencher">
 	Fill</button>
-
+	
       &nbsp;&nbsp; <font size="+2"></font>
-      <button onclick="raster.outros.deselecionar()">delete</button>
+      <button onclick="raster.outros.deselecionar()" >Delete</button>
+	  -->
     </p>
     <div id="raster" style="display: inline; position: relative; float: left; margin-bottom: 12px; width: 350px; height: 350px;">
     <canvas style="position: absolute; left: 0px; top: 0px;" height="350" width="350" id="raster_demo"></canvas><canvas style="position: absolute; left: 0px; top: 0px;" height="350" width="350" id="pixel-sel"></canvas><canvas style="position: absolute; left: 0px; top: 0px;" height="350" width="350" id="poligono"></canvas><canvas style="position: absolute; left: 0px; top: 0px;" height="350" width="350" id="scanfill"></canvas><canvas style="position: absolute; left: 0px; top: 0px;" height="350" width="350" id="scanfill-animlinha"></canvas></div>
     <div id="controles" style="float: left; margin-left: 12px;">
-      <input id="anim-preenchimento" type="checkbox"> animate fill
+      <!--<input id="anim-preenchimento" type="checkbox"> animate fill
       <hr>
-      <p>Resolution:</p>
+      <p>Resolution:</p>-->
       <ul style="list-style-type: none">
 	<li>
 	  <table>
 	    <tbody><tr>
-	      <td>Window width</td>
+	      <td>Enter Frame width</td>
 	      <td><input value="350" size="5" id="r_width" type="text"></td>
 	      <td>px</td>
 	      </tr>
 	    <tr>
-	      <td>Window height</td>
+	      <td>Enter Frame height</td>
 	      <td><input value="350" size="5" id="r_height" type="text"></td>
 	      <td>px</td>
 	    </tr>
 	    <tr>
-	      <td>Number of columns</td>
-	      <td><input value="350" size="5" id="r_cols" type="text"></td>
+	      <!--<td>Number of columns</td>-->
+	      <td><input value="350" size="5" id="r_cols" type="hidden"></td>
 	    </tr>
 	    <tr>
-	      <td>Number of rows</td>
-	      <td><input value="350" size="5" id="r_rows" type="text"></td>
+	      <!--<td>Number of rows</td>-->
+	      <td><input value="350" size="5" id="r_rows" type="hidden"></td>
 	    </tr>
 	    <tr>
-	      <td>Pixel size</td>
-	      <td><input value="1" size="5" id="r_psize" type="text"></td>
-	      <td>px</td>
+	      <!--<td>Pixel size</td>-->
+	      <td><input value="1" size="5" id="r_psize" type="hidden"></td>
+	      <!--<td>px</td>
 	      <td><input id="r_spixel" type="checkbox"></td>
+		  -->
+		  <!--
 	      <td>Display</td>
+		  -->
 	    </tr>
+
 	    </tbody></table>
 	</li>
+	<ul>
+	<button onclick="raster.outros.atualizar_resolucao()">Enter</button>
+	</ul>
+		<ul>
+		<button onclick="scanfill.startExperiment()">Start Experiment</button>
+	<button onclick="scanfill.nextIteration()">Next Iterarion</button>
+	<button onclick="scanfill.prevIteration()">Previous Iterarion</button>
+	<button onclick="raster.outros.deselecionar()" >Delete</button>
+	</ul>
       </ul>
-      <button onclick="raster.outros.atualizar_resolucao()">Update</button>
+      
     </div>
 
     <div style="clear: left;">
